@@ -1,0 +1,91 @@
+/*-----------------
+Import Font Family 
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;900&display=swap');
+
+/*-----------------
+Common Style
+-------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------
+ Header Section 
+-------------------*/
+#header-section {
+    background-color: #F4F4F4;
+}
+.img-overlay::after {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+} 
+.text-overlay {
+    z-index: 999;
+}
+
+.text-overlay p {
+    color: #F4F4F4;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------
+ Media Screen only Mobile
+-----------------------*/
+@media only screen and (max-width:668px) {
+    .slider-section {
+      padding: 0;
+    }
+    .text-overlay {
+        width: 100%!important;
+        padding: 0; 
+       
+    }
+    .text-overlay h5 {
+        font-size: 16px !important;
+        line-height: normal !important; 
+        margin: 0!important; 
+              
+    }
+    .text-overlay p {
+        font-size: 12px!important;
+        padding: 0 !important;
+        margin: 5px !important;
+    
+    }
+    .prev-icon , .next-icon {
+        z-index: 999;
+    }
+    .text-overlay a{
+        font-size: 12px !important;
+        padding: 5px 10px !important;
+        margin: 0
+        
+    };
+}
+
+/*-----------------------
+ Tablet Screen only Mobile
+-----------------------*/
+@media only screen and (min-width:668px) and (max-width:992px) {
+      
+     .text-overlay h5 {
+        font-size: 22px !important;
+     }
+    .prev-icon , .next-icon {
+         z-index: 999;
+    }
+}
