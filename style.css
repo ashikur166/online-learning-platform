@@ -31,6 +31,13 @@ body {
 .text-overlay p {
     color: #F4F4F4;
 }
+/* Ready To Join Section */
+.join-section {
+    background-color: #289BDE;
+}
+.resister-text {
+    color: #F4F4F4;
+}
 
 
 
@@ -75,6 +82,7 @@ body {
         margin: 0
         
     };
+    
 }
 
 /*-----------------------
@@ -88,4 +96,8 @@ body {
     .prev-icon , .next-icon {
          z-index: 999;
     }
+    .Modal-anchor-button {
+       justify-content: center!important;
+    }
+   
 }
